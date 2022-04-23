@@ -1,0 +1,32 @@
+.footer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column-reverse;
+    background-image: url('./380-3802157_footer-reindeer-background-footer-background-image-png.png');
+}
+.footer a {
+    position: absolute;
+    
+    bottom: 0px;
+    font-size: 40px;
+}
+.footer a:nth-child(1) {
+    right: 30px;
+    color: rgb(109, 55, 55);
+}
+.footer a:nth-child(2) {
+    right: 100px;
+    color: rgb(0, 119, 231);
+}
+.footer a:hover {
+    color: rgb(17, 17, 17);
+}
+.allright__reserve {
+    width: fit-content;
+    transform: translateX(245%);
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(46, 46, 46);
+}

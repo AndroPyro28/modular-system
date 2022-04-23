@@ -1,0 +1,43 @@
+.normal__navbar {
+    height: 60px;
+    backdrop-filter: blur(3px);
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    background-color: rgb(162, 252, 177);
+}
+
+.normal__navbar ul {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.normal__navbar ul .navButton{
+    display: flex;
+    padding-left:10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    align-items: center;
+    transition: all 0.3s ease;
+    
+}
+
+.normal__navbar ul .navButton:hover{
+    border: solid 0px white;
+}
+
+.navActive {
+    border: solid 0px white;
+    border-bottom: solid 3px rgb(253, 253, 253);
+}
+
+.navbar__logo {
+    flex: 1;
+    display: inline;
+}

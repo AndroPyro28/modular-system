@@ -1,0 +1,44 @@
+.carousel__container {
+    margin-top: 60px;
+    height: 400px;
+      /* background-color: black;  */
+    width: 100vw;
+}
+.carousel__images {
+    width: 100%;
+    height: 400px;
+    /* animation: slide; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-name: slide;
+    animation-duration: 3s;
+    /* animation-direction: ; */
+    /* animation-play-state: paused; */
+    /* animation-fill-mode:both; */
+    /* animation-delay:3s; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+
+  }
+}
+
+@media (max-width: 700px) {
+  .carousel__container, .carousel__images{
+    height: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel__container, .carousel__images{
+    height: 200px;
+  }
+}
+
+
+
